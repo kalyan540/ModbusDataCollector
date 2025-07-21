@@ -3,7 +3,7 @@
 #include <WiFiClientSecure.h>
 #include <PubSubClient.h>
 #include "secrets.h"
-#include <ModbusRTUMaster.h>
+#include <ModbusWifiAdapter.h>
 
 //#define MQTT_MAX_PACKET_SIZE 2048
 
@@ -35,7 +35,7 @@ unsigned long lastHealthPublishTime = 0;
 String deviceid;
 
 // ModbusRTUMaster instance
-ModbusRTUMaster modbus(MODBUS_SERIAL, DE_RE_PIN);
+ModbusWifiAdapter modbus(MODBUS_SERIAL, DE_RE_PIN);
 
 // Modbus data buffers
 const uint8_t numHoldingRegisters = 8; // Number of holding registers to read

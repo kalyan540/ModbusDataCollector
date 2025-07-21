@@ -4,16 +4,16 @@
 // ==============================
 // WiFi Credentials
 // ==============================
-#define WIFI_SSID     "RICKY"
-#define WIFI_PASSWORD "7989660334"
+#define WIFI_SSID     "XXXXXXXXX"
+#define WIFI_PASSWORD "XXXXXXXXX"
 
 // ==============================
 // MQTT Broker Configuration
 // ==============================
-#define MQTT_BROKER    "mbed.eknow.in"//"141.148.202.151"
+#define MQTT_BROKER    "XXXXXXXXX"
 #define MQTT_PORT      8884
-#define MQTT_CLIENT_ID "ESP32Client"
-#define MQTT_TOPIC     "test/topic1"
+#define MQTT_CLIENT_ID "XXXXXXXXX"
+#define MQTT_TOPIC     "XXXXXXXXX"
 
 // ==============================
 // Root CA Certificate (PEM Format)
